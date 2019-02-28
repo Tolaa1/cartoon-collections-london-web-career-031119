@@ -8,7 +8,8 @@ planeteer_calls.map do "{|call| call.capiltalize + "!"}"
 end
 summon_captain_planet
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(calls)
+  long_planeteer_calls.any? do |call| call.length>4|
   # Your code here
 end
 
