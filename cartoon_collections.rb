@@ -2,7 +2,7 @@ def roll_call_dwarves(dwarves)
   each.with_index(1)
 end
 
-def summon_captain_planet(planeteer calls)
+def summon_captain_planet(planeteer_calls)
 planeteer_calls.each_upcase do |planeteer_calls|
 end
 
